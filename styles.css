@@ -1,4 +1,46 @@
 
 body {
   font-family: 'Caveat', cursive;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
+
+#header {
+  background-color: rgb(203, 242, 242);
+  display: flex;
+ 
+  align-items: center;
+  justify-content: space-between;
+  
+  padding-left: 50px;
+  padding-right: 100px;
+  
+
+}
+
+
+.logo-img {
+  max-height: 100px;
+ 
+}
+
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 50px;
+  
+  
+}
+
+
+
+
+a:visited, a:hover, a:before, a:link, a:active {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 900;
+}
+
